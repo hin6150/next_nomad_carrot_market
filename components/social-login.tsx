@@ -1,10 +1,10 @@
-import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/solid";
-import Link from "next/link";
+import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/solid'
+import Link from 'next/link'
 
 export default function SocialLogin() {
   return (
     <>
-      <div className="w-full h-px bg-neutral-500" />
+      <div className="h-px w-full bg-neutral-500" />
       <div className="flex flex-col gap-3">
         <Link
           className="primary-btn flex h-10 items-center justify-center gap-2"
@@ -34,5 +34,5 @@ export default function SocialLogin() {
         </Link>
       </div>
     </>
-  );
+  )
 }
